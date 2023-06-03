@@ -2,6 +2,8 @@
 <h1 align="center">Rollo for Unity</h1>
 <br />
 
+This project is still very much work in progress.
+
 * NetworkManager (Manage connection)
 * ServerListener (Listen packets)
 * RolloNotificationCenter (Trigger events)
