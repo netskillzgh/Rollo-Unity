@@ -12,9 +12,6 @@ namespace Rollo.Client
         [SerializeField] private int masterPort = 6666;
         [SerializeField] private int heartbeatInterval = 6;
         [SerializeField] private bool withTls = false;
-        public string email;
-        public string password;
-        public string token;
         public NetworkClient Client;
 
         private void Awake()
