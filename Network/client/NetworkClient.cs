@@ -129,7 +129,7 @@ namespace Rollo.Client
         {
             lock (receiveQueueLock)
             {
-                while (Connected && _client.Connected && GetNextMessage(out var msg))
+                while (Connected && _client.Connected && TryGetNextMessage(out var msg))
                 {
                     switch (msg.EventType)
                     {

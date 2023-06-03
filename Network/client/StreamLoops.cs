@@ -17,7 +17,7 @@ namespace Rollo.Client
 
         public Queue<MessageStream> ReceiveQueue = new Queue<MessageStream>();
 
-        protected bool GetNextMessage(out MessageStream message)
+        protected bool TryGetNextMessage(out MessageStream message)
         {
             return ReceiveQueue.TryDequeue(out message);
         }
