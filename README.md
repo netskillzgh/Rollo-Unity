@@ -1,4 +1,4 @@
-<div align="center"><img align="center" src="/doc/rollo-logo.png" alt="logo" style="height: 100px; width:100px;"/></div>
+<div align="center"><img align="center" src="https://github.com/netskillzgh/rollo/raw/master/doc/rollo-logo.png" alt="logo" style="height: 100px; width:100px;"/></div>
 <h1 align="center">Rollo for Unity</h1>
 <br />
 
